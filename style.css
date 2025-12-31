@@ -1,0 +1,67 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.part2{
+    background-color:orange;
+    
+}
+
+.modal-container{
+    display: none;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(136, 122, 136, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-details{
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    padding: 3rem;
+    color: black;
+}
+
+.modal-details  i{
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    font-size: 2rem;
+    padding: 1rem;
+    color: gray;
+}
+
+.modal-titre{
+    font-size: 1rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.code{
+    display: none;
+    background-color: black;
+    color:white;
+    font-family: monospace;
+    padding: 1rem;
+}
+
+.btn-success{
+    height: 4rem;
+    background-color: rgba(231, 171, 61);
+    color: white;
+    padding: 1rem;
+    border: none;
+    width: 100%;
+}
+
+
